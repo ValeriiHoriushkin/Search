@@ -1,0 +1,131 @@
+#main {
+    font-family: sans-serif, arial;
+    font-weight: normal;
+}
+
+#links{
+    position: relative;
+    right: 1vw;
+    padding: 10px;
+}
+
+#signin{
+    background-color: #1a73e8;
+    color: white;
+    min-width: 80px;
+    height: 30px;
+    border-radius: 7px;
+    border: 1px solid transparent;
+    float: right;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.el{
+    font-size: 14px;
+    float: right;
+    margin: 10px;
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+}
+
+#query{
+    padding-left: 40px;
+    padding-right: 7px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    height: 44px;
+    width: 520px;
+    margin: 25px auto;
+    outline: none;
+    font-size: 18px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/55/Magnifying_glass_icon.svg);
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-x: 15px;
+    background-position-y: 15px;
+}
+
+#query:hover{
+    outline: none;
+    border-color: #A8A3A3
+;
+}
+
+.btn{
+    margin-top: 6px;
+    margin-left: 13px;
+}
+
+a:hover { 
+    text-decoration: underline; 
+   }
+
+#signin:hover{
+    background: #4c94f1;
+    text-decoration: none;
+}
+
+#search {
+    margin-top: 12vh;
+    justify-content: center;
+    font-size: 90px;
+    display: flex;
+}
+
+.g_blue {
+    color: #4285f4;}
+
+.g_red  {
+     color: #EA4335;
+    }
+    
+.g_yellow{
+     color: #FBBC05;
+    }
+
+.g_green{
+        color: #34A853;
+       }
+
+.input{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Roboto,arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.input:hover{
+    border: 1px solid gray;
+}
+ .inp{
+    display: flex;
+    justify-content: center;
+}
+
+.qr_inp{
+    width: 35%;
+    height: 45px;
+    border-radius: 25px;
+    border: 1px solid #dfe1e4;
+    font-size: 14px;
+    padding-left: 40px;
+    
+    
+    outline: none;
+}
